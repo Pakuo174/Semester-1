@@ -1,3 +1,4 @@
+## importieren des Scanners
 import java.util.Scanner;
 
 public class Passwort {
