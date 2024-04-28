@@ -11,7 +11,7 @@ public class Zahlenraten {
 
         //Zufallszahl wird hier berechnet von 1 -20
         int Min = 1;
-        int Max = 200;
+        int Max = 20;
         zufallszahl = Min + (int) (Math.random() * (Max - Min+1));
 
         //abfragen der Zahl die Person erraten soll
@@ -39,7 +39,7 @@ public class Zahlenraten {
 
                             if(zahl!=zufallszahl){
 
-                                System.out.print("rate nochmal du Pisser!! : ");
+                                System.out.print("rate nochmal !! : ");
                                 Scanner scan2 = new Scanner(System.in);
                                 zahl = scan2.nextInt();
                             }
